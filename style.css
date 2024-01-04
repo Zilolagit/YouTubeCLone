@@ -131,7 +131,7 @@ nav {
     width: 85%;
 }
 
-.subscribed-list h3 {
+.subsript-text{
     font-size: 13px;
     margin: 20px 0;
     color: #5a5a5a;
@@ -148,6 +148,7 @@ nav {
 
 .subscribed-list a img {
     width: 25px;
+    height: 25px;
     border-radius: 50%;
     margin-right: 20px;
 }
@@ -203,6 +204,9 @@ nav {
 .vid-list .thumbnail{
     width: 100%;
     border-radius: 5px;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .vid-list .flex-div {
@@ -211,6 +215,7 @@ nav {
 }
 .vid-list .flex-div img {
     width: 35px;
+    height: 35px;
     margin-right: 10px;
     border-radius: 50%;
 }
