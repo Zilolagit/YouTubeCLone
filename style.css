@@ -305,7 +305,13 @@ nav {
 .play-video .tags a {
     color: #0000ff;
     font-size: 13px;
+    margin-left: 10px;
 }
+
+.play-video .tags a:first-child {
+    margin-left: 0;
+}
+
 
 .play-video h3 {
     font-weight: 600;
