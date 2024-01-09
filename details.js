@@ -1,7 +1,9 @@
 let videoId = JSON.parse(localStorage.getItem("clickedVideo"))
 let detailVideo = null
 let videoChannel = null
-
+let oldComments = document.querySelector(".old-comments")
+let commentNew = ""
+let commentCount = document.querySelector(".comment-count")
 
 function detailedVideo() {
     for (let i = 0; i < videos.length; i++) {
@@ -25,10 +27,6 @@ function detailedVideo() {
     let rightSideBar = document.querySelector(".right-sidebar")
     let adviceChannel = null
 
-    console.log(channelName);
-
-
-
     for (let i = 0; i < detailVideo.tags.length; i++){
         let a = document.createElement("a")
         a.setAttribute("href", "#")
@@ -41,7 +39,30 @@ function detailedVideo() {
     dislikes.innerText = detailVideo.dislikes
     channelName.innerText = videoChannel.name
 
+    for (let i = 0 ; i < detailVideo.comments.length; i++) {
+        commentNew += `
+        <div class="old-comment">
+        <img src="${detailVideo.comments[i].image}" alt="jack">
+        <div>
+            <h3>${detailVideo.comments[i].name} <span>${detailVideo.comments[i].created}</span></h3>
+            <p>${detailVideo.comments[i].text}</p>
+            <div class="comment-action">
+                <img src="images/like.png" alt="like">
+                <span>${detailVideo.comments[i].likes}</span>
+                <img src="images/dislike.png" alt="dislike">
+                <span>${detailVideo.comments[i].dislikes}</span>
+                <span>REPLY</span>
+                <a href="#">All Replies</a>
+            </div>
+        </div>
+    </div>
+    `
+}
+
+    oldComments.innerHTML = commentNew
+
     let adviceVideo = ""
+
     for (let z = 0; z < videos.length; z++) {
         if (videos[z].id != detailVideo.id) {
             for (let k = 0; k < channels.length; k++){
@@ -63,6 +84,20 @@ function detailedVideo() {
         }
     }
     rightSideBar.innerHTML = adviceVideo
+
+
+    let vidH4 = document.createElement("h4")
+    vidH4.innerText = `${detailVideo.comments.length} Comments`
+    commentCount.append(vidH4)
+
+    console.log();
+    let vidP;
+    let descArray = detailVideo.desc.split(". ")
+    for (let i =0; i < descArray.length; i++) {
+        vidP = document.createElement("p")
+        vidP.innerText = descArray[i]
+        commentCount.append(vidP)
+    }
 }
 
 detailedVideo()

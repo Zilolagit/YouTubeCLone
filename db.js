@@ -51,16 +51,25 @@ let videos = [
                 name: "Jack Nicholson",
                 created: "02/01/2024",
                 image: "https://w.forfun.com/fetch/b4/b4061f05d1365648decb0cac791373a3.jpeg",
+                likes: 200,
+                dislikes : 3,
+                text : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
             },
             {
                 name: "Jack Nicholson",
                 created: "02/01/2024",
                 image: "https://w.forfun.com/fetch/b4/b4061f05d1365648decb0cac791373a3.jpeg",
+                likes: 200,
+                dislikes : 3,
+                text : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
             },
             {
                 name: "Jack Nicholson",
                 created: "01/01/2024",
                 image: "https://w.forfun.com/fetch/b4/b4061f05d1365648decb0cac791373a3.jpeg",
+                likes: 200,
+                dislikes : 3,
+                text : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
             }
         ],
         tags: ["HTML", "CSS", "Javascript"],
@@ -80,16 +89,25 @@ let videos = [
                 name: "Jack Nicholson",
                 created: "02/01/2024",
                 image: "https://w.forfun.com/fetch/b4/b4061f05d1365648decb0cac791373a3.jpeg",
+                likes: 200,
+                dislikes : 3,
+                text : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
             },
             {
                 name: "Jack Nicholson",
                 created: "02/01/2024",
                 image: "https://w.forfun.com/fetch/b4/b4061f05d1365648decb0cac791373a3.jpeg",
+                likes: 200,
+                dislikes : 3,
+                text : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
             },
             {
                 name: "Jack Nicholson",
                 created: "01/01/2024",
                 image: "https://w.forfun.com/fetch/b4/b4061f05d1365648decb0cac791373a3.jpeg",
+                likes: 200,
+                dislikes : 3,
+                text : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
             }
         ],
         tags: ["HTML", "CSS", "Javascript"],
@@ -110,16 +128,25 @@ let videos = [
                 name: "Jack Nicholson",
                 created: "02/01/2024",
                 image: "https://w.forfun.com/fetch/b4/b4061f05d1365648decb0cac791373a3.jpeg",
+                likes: 200,
+                dislikes : 3,
+                text : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
             },
             {
                 name: "Jack Nicholson",
                 created: "02/01/2024",
                 image: "https://w.forfun.com/fetch/b4/b4061f05d1365648decb0cac791373a3.jpeg",
+                likes: 200,
+                dislikes : 3,
+                text : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
             },
             {
                 name: "Jack Nicholson",
                 created: "01/01/2024",
                 image: "https://w.forfun.com/fetch/b4/b4061f05d1365648decb0cac791373a3.jpeg",
+                likes: 200,
+                dislikes : 3,
+                text : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
             }
         ],
         tags: ["HTML", "CSS", "Javascript"],
@@ -140,16 +167,25 @@ let videos = [
                 name: "Jack Nicholson",
                 created: "02/01/2024",
                 image: "https://w.forfun.com/fetch/b4/b4061f05d1365648decb0cac791373a3.jpeg",
+                likes: 200,
+                dislikes : 3,
+                text : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
             },
             {
                 name: "Jack Nicholson",
                 created: "02/01/2024",
                 image: "https://w.forfun.com/fetch/b4/b4061f05d1365648decb0cac791373a3.jpeg",
+                likes: 200,
+                dislikes : 3,
+                text : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
             },
             {
                 name: "Jack Nicholson",
                 created: "01/01/2024",
                 image: "https://w.forfun.com/fetch/b4/b4061f05d1365648decb0cac791373a3.jpeg",
+                likes: 200,
+                dislikes : 3,
+                text : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
             }
         ],
         tags: ["HTML", "CSS", "Javascript"],
@@ -170,16 +206,25 @@ let videos = [
                 name: "Jack Nicholson",
                 created: "02/01/2024",
                 image: "https://w.forfun.com/fetch/b4/b4061f05d1365648decb0cac791373a3.jpeg",
+                likes: 200,
+                dislikes : 3,
+                text : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
             },
             {
                 name: "Jack Nicholson",
                 created: "02/01/2024",
                 image: "https://w.forfun.com/fetch/b4/b4061f05d1365648decb0cac791373a3.jpeg",
+                likes: 200,
+                dislikes : 3,
+                text : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
             },
             {
                 name: "Jack Nicholson",
                 created: "01/01/2024",
                 image: "https://w.forfun.com/fetch/b4/b4061f05d1365648decb0cac791373a3.jpeg",
+                likes: 200,
+                dislikes : 3,
+                text : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
             }
         ],
         tags: ["HTML", "CSS", "Javascript"],
